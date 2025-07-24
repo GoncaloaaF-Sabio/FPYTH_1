@@ -164,3 +164,35 @@ nomes2 = [
 print(nomes)
 nomes.extend(nomes2)
 print(nomes)
+
+
+print("---"*10, "itr lista", "---"*10)
+
+
+
+
+
+
+
+for i in range(len(nomes)):
+    print(f"idx: {i} -  {nomes[i]}")
+
+
+for elm in nomes:
+    print(f"nome: {elm}")
+
+
+"""
+
+peça ao utilizador 10 num e guarde esses 10 num numa lista, deve guardar o 1 e ultimo num 
+a serem adiciodos  para os usarem mais tarde 
+
+mostre ao utilizar:
+    a lista pela ordem que foi criada
+    a lista invertida 
+    a lista ordenada 
+    o index do 1º a ser adicionado
+
+remover o ultimo elemento a ser adicionado
+
+"""
