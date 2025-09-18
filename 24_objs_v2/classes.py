@@ -45,3 +45,15 @@ pessoa2.envelhecer()
 pessoa2.envelhecer()
 print(pessoa2.getInfo())
 #print("----")
+
+
+pessoa.addAmigo("Carlos")
+pessoa.addAmigo("Rui")
+pessoa.addAmigo("Ana")
+
+print(pessoa.getInfo())
+
+amigos = ""
+for amigo in pessoa.listaAmigos:
+    amigos += amigo + " "
+print(amigos)
